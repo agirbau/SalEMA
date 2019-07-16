@@ -1,4 +1,4 @@
-# SalEMA
+# Simple vs complex temporal recurrences for video saliency prediction
 
 SalEMA is a video saliency prediction network. It utilizes a moving average of convolutional states to produce state of the art results according to [this benchmark](https://mmcheng.net/videosal/) on DHF1K, Hollywwod-2 and UCF Sports (July 2019). The model has been trained on the [DHF1K dataset](https://github.com/wenguanwang/DHF1K). 
 
@@ -15,7 +15,7 @@ Please cite with the following Bibtex code:
 ```
 @InProceedings{Linardos2019,
 author = {Linardos, Panagiotis and Mohedano, Eva and Nieto, Juan Jose and McGuinness, Kevin and Giro-i-Nieto, Xavier and O'Connor, Noel E.},
-title = {Temporal Recurrences for Video Saliency Prediction},
+title = {Simple vs complex temporal recurrences for video saliency prediction},
 booktitle = {British Machine Vision Conference (BMVC)},
 month = {September},
 year = {2019}
@@ -24,7 +24,7 @@ year = {2019}
 
 You may also want to refer to our publication with the more human-friendly Chicago style:
 
-*Panagiotis Linardos, Eva Mohedano, Juan Jose Nieto, Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O'Connor. "Temporal Recurrences for Video Saliency Prediction." BMVC 2019.*
+*Panagiotis Linardos, Eva Mohedano, Juan Jose Nieto, Kevin McGuinness, Xavier Giro-i-Nieto and Noel E. O'Connor. "Simple vs complex temporal recurrences for video saliency prediction." BMVC 2019.*
 
 ## Results
 
