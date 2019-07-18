@@ -28,11 +28,19 @@ You may also want to refer to our publication with the more human-friendly Chica
 
 ## Results
 
+
+  
 Qualitative results:
 ![QResults](https://raw.githubusercontent.com/Linardos/SalEMA/gh-pages/QResultsEMA.png)
 
-Sample video (click to be redirected to youtube):
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JNe6A7dszPw/0.jpg)](https://www.youtube.com/watch?v=JNe6A7dszPw)
+Click to be redirected to youtube:
+
+[![Sample video I](https://img.youtube.com/vi/JNe6A7dszPw/0.jpg)](https://www.youtube.com/watch?v=JNe6A7dszPw)
+
+
+[![Sample video II](https://img.youtube.com/vi/v=G49nM8tleTQ/0.jpg)](https://www.youtube.com/watch?v=G49nM8tleTQ)
+
+
 
 ## Model
 
