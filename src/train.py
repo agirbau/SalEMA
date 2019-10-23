@@ -200,6 +200,14 @@ def main(args, params = params):
     for epoch in range(start_epoch, args.epochs+1):
 
         try:
+          
+            if args.use_gpu == 'parallel':
+                model = nn.DataParallel(model).cuda()
+            elif args.use_gpu == 'gpu':
+                model = model.cuda()
+            else:
+                pass
+          
             #adjust_learning_rate(optimizer, epoch, decay_rate) #Didn't use this after all
             # train for one epoch
             train_loss, n_iter, optimizer = train(train_loader, model, criterion, optimizer, epoch, n_iter, args.use_gpu, args.double_ema, args.thaw, temporal, dtype)
@@ -221,13 +229,6 @@ def main(args, params = params):
                 'state_dict': model.cpu().state_dict(),
                 'optimizer' : optimizer.state_dict()
                 }, args.new_model+".pt")
-
-            if args.use_gpu == 'parallel':
-                model = nn.DataParallel(model).cuda()
-            elif args.use_gpu == 'gpu':
-                model = model.cuda()
-            else:
-                pass
 
             """
             else:
